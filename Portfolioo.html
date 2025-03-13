@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gugan - Colorful Portfolio</title>
+    <style>
+        :root {
+            --primary: #2A2A72;
+            --secondary: #009FFD;
+            --accent: #00C49A;
+            --highlight: #FF6B6B;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-left: 5px solid var(--highlight);
+            padding-left: 15px;
+            margin: 20px 0;
+            font-size: 1.8em;
+        }
+
+        .education-details {
+            margin-left: 20px;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px;
+            background: linear-gradient(45deg, var(--secondary), var(--accent));
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .contact-icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+            color: var(--primary);
+        }
+
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: var(--highlight);
+            text-decoration: underline;
+        }
+
+        .grade-badge {
+            background: var(--accent);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .timeline {
+            border-left: 3px solid var(--primary);
+            padding-left: 25px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="margin:0;font-size:2.5em;">Gugan</h1>
+            <p style="font-size:1.2em;margin-top:10px;">🚀 BCA Student | Computer Application Specialist</p>
+        </div>
+
+        <div class="section">
+            <h2>🌟 About Me</h2>
+            <p>Hello! I am <strong>Gugan D</strong>, a passionate student pursuing <span style="color: var(--secondary);">Bachelor of Computer Applications (BCA)</span> at <em>KCS Kasi Nadar College of Arts and Science</em>. Completed my 10th grade during the challenging <span style="color: var(--highlight);">COVID-19 pandemic</span>, which shaped my adaptability and tech-driven learning approach. Specializing in <span class="skill-tag">Python</span> <span class="skill-tag">Java</span> <span class="skill-tag">Web Design</span>, I combine technical skills with creative problem-solving.</p>
+        </div>
+
+        <div class="section">
+            <h2>🎓 Education Journey</h2>
+            <div class="timeline">
+                <div class="education-details">
+                    <h3 style="color: var(--primary);">🎓 College</h3>
+                    <p><strong>KCS Kasi Nadar College of Arts and Science</strong></p>
+                    <ul>
+                        <li>BCA (Bachelor of Computer Applications)</li>
+                        <li>1st Sem: <span class="grade-badge">70%</span></li>
+                        <li>2nd Sem: <span class="grade-badge">70%</span></li>
+                        <li>3rd Sem: <span class="grade-badge">65%</span></li>
+                        <li>⚡ Current: 4th–6th Semesters</li>
+                    </ul>
+
+                    <h3 style="color: var(--primary);margin-top:30px;">🏫 Higher Secondary</h3>
+                    <p><strong>Vellayan Chettiyar Higher Secondary School</strong></p>
+                    <ul>
+                        <li>12th Grade: <span class="grade-badge">92%</span></li>
+                        <li>11th Grade: <span class="grade-badge">83%</span></li>
+                    </ul>
+
+                    <h3 style="color: var(--primary);margin-top:30px;">📚 Secondary School</h3>
+                    <p><strong>Vellayan Chettiyar Higher Secondary School</strong></p>
+                    <ul>
+                        <li>🎗️ COVID-19 Batch Survivor (2020–2021)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💻 Tech Arsenal</h2>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">HTML5</div>
+            <div class="skill-tag">CSS3</div>
+            <div class="skill-tag">JavaScript</div>
+            <div class="skill-tag">Web Design</div>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Achievements</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>✅ <strong>92%</strong> in 12th Grade</li>
+                <li>✅ Consistent Academic Performer</li>
+                <li>✅ COVID-19 Batch Success Story</li>
+                <li>✅ Steady College Progress</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📬 Let's Connect</h2>
+            <p>📧 <a href="mailto:ddgugan2005@example.com">ddgugan2005@email.com</a></p>
+            <p>📱 <a href="tel:+911234567890">+91 98765 43210</a></p>
+            <p>🌐 <a href="#">linkedin.com/in/Gugan</a></p>
+            <p>🐱 <a href="#">github.com/Gugan-dev</a></p>
+        </div>
+    </div>
+</body>
+</html>
